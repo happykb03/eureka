@@ -16,7 +16,7 @@ def notifyMail(STATUS, RECIPIENTS) {
 }
 
 /* ------------------------------ */
-
+   
 notifySlack("STARTED", "#FFFF00")
 notifyMail("STARTED", "${emailRecipients}")
 
